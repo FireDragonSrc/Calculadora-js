@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-style: none;
+    outline: none;
+}
+html, body{height: 100%;}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.main-container{
+    transform: translateY(50%);
+}
+.main{
+    width: 25%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.83);
+}
+.container{
+    margin: 0 auto;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.83);
+    border-radius: 5px;
+    padding: 1%;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.651) 0px 14px 28px, rgba(0, 0, 0, 0.514) 0px 10px 10px;
+}
+.input{
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    padding-left: 3%;
+    background-color: rgba(255, 255, 255, 0.767);
+    border-radius: 2px;
+    color: rgba(0, 0, 0, 0.781);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.grade{
+    width: 100%;
+    height:55px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.grade > button{
+    width: 24%;
+    height: 50px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.342) ;
+    background-color: rgba(255, 255, 255, 0.767);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: .5s;
+    font-size: 25px;
+}
+.grade > button:hover{
+    background-color: rgba(255, 255, 255, 0.801);
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.596) ;
+}
+.grade > button:active{
+    transform: scale(1.2);
+}
+.igualdade{
+    background-color:rgba(16, 28, 202, 0.774) !important;
+    color: white !important;
+}
+.igualdade:hover{
+    background-color:rgba(1, 8, 99, 0.774) !important;
+}
+.limpar{
+    background-color: rgba(165, 42, 42, 0.678) !important;
+}
+.limpar:hover{
+    background-color: rgba(121, 23, 23, 0.678) !important;
+}
